@@ -1,0 +1,15 @@
+Installing phpUnit - http://bdhacker.wordpress.com/2012/02/18/install-phpunit-in-windows-wamp-using-pear/
+
+http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/
+
+phactory - for php unit testings
+http://phactory.org/mongodb-guide/
+
+install mongo (phactory uses it)
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
+
+install mongo php driver
+http://docs.mongodb.org/ecosystem/drivers/php/
+
+get the php_mongo.dll file here
+http://stackoverflow.com/questions/6192285/mongodb-with-php-on-windows-7-64-bits
