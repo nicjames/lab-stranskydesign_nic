@@ -207,7 +207,9 @@ function db_error($query, $errno, $error) {
 }
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
-
-define("CLASS_FILEROOT", "c:/wamp/www/lab.stranskydesign.com.localhost/paypalipn");
+echo "|| " . getcwd() . " ||";
+$cwd = getcwd();
+//define("CLASS_FILEROOT", "c:/wamp/www/lab.stranskydesign.com.localhost/master/paypalipn");
+define("CLASS_FILEROOT", "$cwd/paypalipn");
 //define("OUTPUT_MEDIA_TYPE", "browser");
 ?>

@@ -8,7 +8,7 @@ require_once 'common.php';
  * @author nic.stransky
  */
 $output_media_type = 'shell';
-db_connect();
+//db_connect();
 class CartTest extends PHPUnit_Framework_TestCase {
 	public function setup() { }
 	public function tearDown() { echo "\n\n"; }
