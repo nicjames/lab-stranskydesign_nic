@@ -45,7 +45,7 @@ class CartTest extends PHPUnit_Framework_TestCase {
 		
 		$cart = new Cart($items); 
 		$cart->sendToPaypal();
-		$this->assertTrue( $cart->getState() == "!added to fail test!Waiting for Payal's IPN response." );
+		$this->assertTrue( $cart->getState() == "Waiting for Payal's IPN response." );
 	}
 	
 	public function testCantAddItemsWhenWaitingForPaypalResponse() {
