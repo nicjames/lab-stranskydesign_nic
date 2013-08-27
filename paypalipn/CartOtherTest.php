@@ -30,7 +30,7 @@ class CartTest extends PHPUnit_Framework_TestCase {
 		
 		
 		
-		$this->assertTrue(false);		
+		$this->assertTrue( $cart->getState() == "DeliveryCompletedState. You can delete the cart." );		
 	}
 	
 }
