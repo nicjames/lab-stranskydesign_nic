@@ -1,7 +1,7 @@
 <?php
 
 /**
- * CAD-16 test
+ * CAD-16 test test again
  * Description of HasItemsState
  *
  * @author nic.stransky
