@@ -11,6 +11,7 @@ class Cart {
 	
 	private $noItemsState;
 	private $hasItemsState;
+	private $bullshitDeleteMe;
 	private $waitingForPaypalResponseState;
 	private $paymentFailedState;
 	private $paymentSucceededState;
