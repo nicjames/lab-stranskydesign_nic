@@ -30,7 +30,8 @@ class CartTest extends PHPUnit_Framework_TestCase {
 		
 		
 		
-		$this->assertTrue(true);		
+		$this->assertTrue(true);	
+		// change 09032013 does this get merged 
 	}
 	
 }
