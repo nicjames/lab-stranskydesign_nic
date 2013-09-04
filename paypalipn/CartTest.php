@@ -14,7 +14,7 @@ class CartTest extends PHPUnit_Framework_TestCase {
 	public function setup() { }
 	public function tearDown() { echo "\n\n"; }
 	public function testAddItems() {
-		
+		// edit for CAD-15 test
 		$items = array();
 		$item->name = 'Apple';
 		$item->url = 'http://www.hdwallpaperspics.com/uploads/2012/11/apple2-1.jpg';
